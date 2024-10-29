@@ -8,19 +8,20 @@
 
 .popular h1 {
     color: #171717;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 600;
+    overflow: hidden;
 }
 
 .popular hr {
-    width: 200px;
-    height: 6px;
+    width: 160px;
+    height: 5px;
     border-radius: 10px;
     background-color: #252525;
 }
 
 .popular-items {
-    margin-top: 50px;
+    margin-top: 45px;
     display: flex;
-    gap: 30px;
+    gap: 26px;
 }

@@ -12,9 +12,13 @@
     gap: 10px;
 }
 
+.nav-logo img {
+    width: 65px;
+}
+
 .nav-logo p {
     color: #171717;
-    font-size: 38px;
+    font-size: 35px;
     font-weight: 600;
 }
 
@@ -24,7 +28,7 @@
     list-style: none;
     gap: 50px;
     color: #626262;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 500;
 }
 
@@ -48,17 +52,17 @@
 .nav-login-cart {
     display: flex;
     align-items: center;
-    gap: 45px;
+    gap: 13px;
 }
 
 .nav-login-cart button {
-    width: 157px;
-    height: 58px;
+    width: 100px;
+    height: 34px;
     outline: none;
     border: 1px solid #7a7a7a;
-    border-radius: 75px;
+    border-radius: 16px;
     color: #515151;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 500;
     background-color: white;
     cursor: pointer;
@@ -69,16 +73,20 @@
 }
 
 .nav-cart-count {
-    width: 22px;
-    height: 22px;
+    width: 25px;
+    height: 18px;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: -22px;
-    margin-left: -55px;
+    margin-top: -29px;
+    margin-left: -27px;
     border-radius: 11px;
-    font-size: 14px;
+    font-size: 12px;
     background-color: red;
     color: white;
 
+}
+
+.cart_icon {
+    width: 46px;
 }

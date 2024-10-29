@@ -10,20 +10,23 @@
     flex-direction: column;
     justify-content: center;
     gap: 20px;
-    padding: 180px;
+    padding: 100px;
     line-height: 1.1;
 }
 
 .hero-left h2 {
     color: #090909;
-    font-size: 26px;
+    font-size: 20px;
     font-weight: 600;
+    overflow: hidden;
 }
 
 .hero-left p {
     color: #171717;
-    font-size: 100px;
+    font-size: 55px;
     font-weight: 700;
+    align-self: center;
+    overflow: hidden;
 }
 
 .hero-hand-icon {
@@ -33,7 +36,7 @@
 }
 
 .hero-hand-icon img {
-    width: 105px;
+    width: 59px;
 }
 
 .hero-latest-btn {
@@ -41,19 +44,23 @@
     justify-content: center;
     align-items: center;
     gap: 15px;
-    width: 310px;
-    height: 70px;
-    border-radius: 75px;
-    margin-top: 30px;
+    width: 259px;
+    height: 52px;
+    border-radius: 22px;
+    margin-top: 16px;
     background: #ff4141;
     color: white;
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 500;
+}
+
+.hero-latest-btn div {
+    overflow: hidden;
 }
 
 .hero-right {
     flex: 1;
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
 }
